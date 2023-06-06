@@ -97,8 +97,8 @@ Step14. click on debug and simulate using simulation as shown below
 
 ## STM 32 CUBE PROGRAM :
 ```
-Developed by: Vineesh.M
-Register no: 212221230122
+Developed by: DHANUSH S
+Register no: 212221230020
 ```
 ```
 #include "main.h"
