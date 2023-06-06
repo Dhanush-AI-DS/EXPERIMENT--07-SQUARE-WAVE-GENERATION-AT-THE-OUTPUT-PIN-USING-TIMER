@@ -90,10 +90,15 @@ Step10. Double click on the the MCU part to open settings. Next to the Program F
 Step14. click on debug and simulate using simulation as shown below 
  ![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/b8efbfc2-f0c5-4106-8117-3a6e7ac87f6c)
 
+
+ 
+
+  
+
 ## STM 32 CUBE PROGRAM :
 ```
-Developed By: DHANUSH S
-Reg.No : 212221230020
+Developed by: Vineesh.M
+Register no: 212221230122
 ```
 ```
 #include "main.h"
@@ -237,44 +242,32 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 
+
 ## Output screen shots of proteus  :
-![pmc1](https://github.com/ShyamKumar-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427182/782fa0c6-5553-4254-b978-10a7594ffa6b)
-![pmc11](https://github.com/ShyamKumar-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427182/1a5c033d-4b69-4884-b7cd-2ce736a332c9)
-![pmc22](https://github.com/ShyamKumar-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427182/fa440b49-fe8b-41cf-aa9e-00a903368426)
-![pmc33](https://github.com/ShyamKumar-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427182/02512331-34ed-41eb-8758-c0b84a3171de)
+![pm1](https://github.com/Vineesh-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427254/31c2c839-7ab9-4fd0-b733-7d0c935458a4)
 
-
-
-
-
-
-
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
- ![pmc2](https://github.com/ShyamKumar-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427182/be0d7b65-599a-4b3a-ae35-2890c1f56198)
-
-FOR PULSE AT 500
-
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
-
-FOR PULSE AT 700
-
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+ ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+ ![pm2](https://github.com/Vineesh-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427254/f4504b5e-0038-4fc5-b266-26a10908f0e5)
 
 
-FOR PULSE AT 900
+## DUTY CYCLE AND FREQUENCY CALCULATION 
+### FOR PULSE AT 500
+![pm3](https://github.com/Vineesh-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427254/34a8efce-00bf-45c5-a65a-c44e122c9e7b)
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
 
+TON = 2 TOFF=2 TOTAL TIME = 4 FREQUENCY = 1/(TOTAL TIME) FREQUENCY = 250Hz
+
+### FOR PULSE AT 700
+![pm4](https://github.com/Vineesh-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427254/b54b0005-f2df-4ee4-ae07-8a69c36bca6b)
+
+
+TON = 3 TOFF=1 TOTAL TIME = 4 FREQUENCY = 1/(TOTAL TIME)=250Hz
+
+### FOR PULSE AT 900
+![pm5](https://github.com/Vineesh-AI-DS/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/93427254/16d55e92-4fb5-4d16-b69a-a2b5df0617a1)
+
+TON = 3.5 TOFF=0.5 TOTAL TIME = 4 FREQUENCY = 1/(TOTAL TIME)=250Hz
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
